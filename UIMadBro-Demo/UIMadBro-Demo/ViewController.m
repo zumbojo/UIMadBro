@@ -57,4 +57,12 @@
     return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
 }
 
+#pragma mark - 
+
+- (IBAction)triggerAlertButtonPressed:(id)sender {
+    UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:@"Title" message:@"Message" delegate:self cancelButtonTitle:@"Cancel" otherButtonTitles:nil];
+    [alertView show];
+}
+
+
 @end

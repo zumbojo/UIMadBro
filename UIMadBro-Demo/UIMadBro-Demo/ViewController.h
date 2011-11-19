@@ -10,4 +10,6 @@
 
 @interface ViewController : UIViewController
 
+- (IBAction)triggerAlertButtonPressed:(id)sender;
+
 @end
