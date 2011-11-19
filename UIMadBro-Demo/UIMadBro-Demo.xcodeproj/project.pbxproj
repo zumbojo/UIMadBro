@@ -15,6 +15,7 @@
 		CEE07E7E14782F9200826D13 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE07E7D14782F9200826D13 /* AppDelegate.m */; };
 		CEE07E8114782F9200826D13 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEE07E7F14782F9200826D13 /* MainStoryboard.storyboard */; };
 		CEE07E8414782F9300826D13 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE07E8314782F9300826D13 /* ViewController.m */; };
+		CEE07E8C1478355C00826D13 /* UIMadBro.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE07E8B1478355C00826D13 /* UIMadBro.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,8 @@
 		CEE07E8014782F9200826D13 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		CEE07E8214782F9300826D13 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		CEE07E8314782F9300826D13 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CEE07E8A1478355C00826D13 /* UIMadBro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UIMadBro.h; path = ../../UIMadBro.h; sourceTree = "<group>"; };
+		CEE07E8B1478355C00826D13 /* UIMadBro.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UIMadBro.m; path = ../../UIMadBro.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +86,8 @@
 				CEE07E8214782F9300826D13 /* ViewController.h */,
 				CEE07E8314782F9300826D13 /* ViewController.m */,
 				CEE07E7414782F9200826D13 /* Supporting Files */,
+				CEE07E8A1478355C00826D13 /* UIMadBro.h */,
+				CEE07E8B1478355C00826D13 /* UIMadBro.m */,
 			);
 			path = "UIMadBro-Demo";
 			sourceTree = "<group>";
@@ -163,6 +168,7 @@
 				CEE07E7A14782F9200826D13 /* main.m in Sources */,
 				CEE07E7E14782F9200826D13 /* AppDelegate.m in Sources */,
 				CEE07E8414782F9300826D13 /* ViewController.m in Sources */,
+				CEE07E8C1478355C00826D13 /* UIMadBro.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
