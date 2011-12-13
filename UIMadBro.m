@@ -55,11 +55,8 @@
         }
     }
 
-//    buttonTop -= 7; buttonTop -= 100;
-//    previewView.frame = CGRectMake(12, buttonTop, self.frame.size.width - 53, 100);
-    
-    
-    
+    buttonTop -= 7; buttonTop -= messageLabel.frame.size.height;
+    messageLabel.frame = CGRectMake(12, buttonTop, self.frame.size.width - 53, messageLabel.frame.size.height);
 }
 
 
