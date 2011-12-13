@@ -43,22 +43,22 @@
     CGFloat buttonTop;
     UILabel *messageLabel;
     for (UIView *view in self.subviews) {
-        NSLog(@"%@", [[view class] description]);
+        // find, reposition button(s)
         if ([[[view class] description] isEqualToString:@"UIAlertButton"]) {
             view.frame = CGRectMake(view.frame.origin.x, self.bounds.size.height - view.frame.size.height - 15, view.frame.size.width, view.frame.size.height);
             buttonTop = view.frame.origin.y;
         }
+        // find, store pointer to message label (reposition later)
         if ([[[view class] description] isEqualToString:@"UILabel"] 
             && [((UILabel *)view).text isEqualToString:self.message]) {
             messageLabel = (UILabel *)view;
-            NSLog(@"found message label");
         }
     }
 
-    buttonTop -= 7; buttonTop -= messageLabel.frame.size.height;
-    messageLabel.frame = CGRectMake(12, buttonTop, self.frame.size.width - 53, messageLabel.frame.size.height);
+    buttonTop -= 7; 
+    buttonTop -= messageLabel.frame.size.height;
+    messageLabel.frame = CGRectMake(0, buttonTop, self.frame.size.width, messageLabel.frame.size.height);
 }
-
 
 /*
 - (id)initWithFrame:(CGRect)frame
