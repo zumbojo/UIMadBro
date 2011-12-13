@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "UIMadBro.h"
 
 @implementation ViewController
 
@@ -60,7 +61,8 @@
 #pragma mark - 
 
 - (IBAction)triggerAlertButtonPressed:(id)sender {
-    UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:@"Title" message:@"Message" delegate:self cancelButtonTitle:@"Cancel" otherButtonTitles:nil];
+//    UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:@"Title" message:@"Message" delegate:self cancelButtonTitle:@"Cancel" otherButtonTitles:nil];
+    UIMadBro *alertView = [[UIMadBro alloc] initWithTitle:@"Title" message:@"Message" delegate:self cancelButtonTitle:@"Cancel" okButtonTitle:nil];
     [alertView show];
 }
 

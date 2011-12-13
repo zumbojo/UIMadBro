@@ -16,6 +16,13 @@
 {
     if (self = [super initWithTitle:title message:message delegate:delegate cancelButtonTitle:cancelButtonTitle otherButtonTitles:okayButtonTitle, nil])
     {
+        UIImageView *face = [[UIImageView alloc] initWithFrame:CGRectMake(12.0, 45.0, 260.0, 25.0)];
+        face.image = [UIImage imageNamed:@"face.png"];
+        [self addSubview:face];
+        // todo: strip out arc?  if so: [face release]; and create a dealloc
+        
+        
+        
 //        UITextField *theTextField = [[UITextField alloc] initWithFrame:CGRectMake(12.0, 45.0, 260.0, 25.0)]; 
 //        [theTextField setBackgroundColor:[UIColor whiteColor]]; 
 //        [self addSubview:theTextField];
