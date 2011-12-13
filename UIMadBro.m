@@ -41,13 +41,25 @@
 - (void)layoutSubviews {
     // from http://www.skylarcantu.com/blog/2009/08/14/custom-uialertview-color-chooser/
     CGFloat buttonTop;
+    UILabel *messageLabel;
     for (UIView *view in self.subviews) {
         NSLog(@"%@", [[view class] description]);
         if ([[[view class] description] isEqualToString:@"UIAlertButton"]) {
             view.frame = CGRectMake(view.frame.origin.x, self.bounds.size.height - view.frame.size.height - 15, view.frame.size.width, view.frame.size.height);
             buttonTop = view.frame.origin.y;
         }
+        if ([[[view class] description] isEqualToString:@"UILabel"] 
+            && [((UILabel *)view).text isEqualToString:self.message]) {
+            messageLabel = (UILabel *)view;
+            NSLog(@"found message label");
+        }
     }
+
+//    buttonTop -= 7; buttonTop -= 100;
+//    previewView.frame = CGRectMake(12, buttonTop, self.frame.size.width - 53, 100);
+    
+    
+    
 }
 
 
