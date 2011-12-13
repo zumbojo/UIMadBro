@@ -42,7 +42,8 @@
     // from http://www.skylarcantu.com/blog/2009/08/14/custom-uialertview-color-chooser/
     CGFloat buttonTop;
     for (UIView *view in self.subviews) {
-        if ([[[view class] description] isEqualToString:@"UIThreePartButton"]) {
+        NSLog(@"%@", [[view class] description]);
+        if ([[[view class] description] isEqualToString:@"UIAlertButton"]) {
             view.frame = CGRectMake(view.frame.origin.x, self.bounds.size.height - view.frame.size.height - 15, view.frame.size.width, view.frame.size.height);
             buttonTop = view.frame.origin.y;
         }
