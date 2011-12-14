@@ -62,7 +62,9 @@
 
 - (IBAction)triggerAlertButtonPressed:(id)sender {
 //    UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:@"Title" message:@"Message" delegate:self cancelButtonTitle:@"Cancel" otherButtonTitles:nil];
-    UIMadBro *alertView = [[UIMadBro alloc] initWithTitle:@"Title" message:@"Message" delegate:self cancelButtonTitle:@"Cancel" okButtonTitle:@"Okay. :("];
+//    UIMadBro *alertView = [[UIMadBro alloc] initWithTitle:@"Title" message:@"Message" delegate:self cancelButtonTitle:@"Cancel" okButtonTitle:@"Okay. :("];
+    UIMadBro *alertView = [[UIMadBro alloc] initWithTitle:@"Problem" message:@"u mad?" delegate:self cancelButtonTitle:@"GTFO" okButtonTitle:@"Okay. :("];
+
     [alertView show];
 }
 
