@@ -16,7 +16,7 @@
 {
     if (self = [super initWithTitle:title message:message delegate:delegate cancelButtonTitle:cancelButtonTitle otherButtonTitles:okayButtonTitle, nil])
     {
-        UIImageView *face = [[UIImageView alloc] initWithFrame:CGRectMake(12.0, 45.0, 260.0, 195.0)];
+        UIImageView *face = [[UIImageView alloc] initWithFrame:CGRectMake(12.0, 45.0, 260.0, 217.0)];
         face.image = [UIImage imageNamed:@"face.png"];
         [self addSubview:face];
         // todo: strip out arc?  if so: [face release]; and create a dealloc
@@ -26,7 +26,7 @@
 
 - (void)setFrame:(CGRect)rect {
     // from http://www.skylarcantu.com/blog/2009/08/14/custom-uialertview-color-chooser/
-    [super setFrame:CGRectMake(0, 0, rect.size.width, 300)];
+    [super setFrame:CGRectMake(0, 0, rect.size.width, 350)];
     self.center = CGPointMake(320/2, 480/2);
 }
 
