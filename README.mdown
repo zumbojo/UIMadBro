@@ -1,18 +1,18 @@
 UIMadBro
-========
+--------
 
 [![](http://zumbojo.github.com/images/other_sites/github/UIMadBro/UIMadBro_screenshot.png)](http://zumbojo.github.com/images/other_sites/github/UIMadBro/UIMadBro_screenshot.png)
 
 Adding this monstrosity to your project
-=======================================
+---------------------------------------
 
 License
-=======
+-------
 
 [MIT](http://www.opensource.org/licenses/mit-license.php).
 
 To do
-=====
+-----
 
 * LICENSE file?
 * Handle multi-line messages better (and remove a few (shameful) hard-coded dimensions)
