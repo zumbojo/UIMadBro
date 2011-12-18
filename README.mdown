@@ -23,7 +23,7 @@ Call it thusly:
 
 ```
   UIMadBro *alertView = [[UIMadBro alloc] initWithTitle:@"Problem" message:@"u mad?" delegate:self cancelButtonTitle:@"GTFO" okButtonTitle:@"Okay. :("];
-[alertView show];
+  [alertView show];
 ```
 
 License
