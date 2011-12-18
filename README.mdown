@@ -6,16 +6,22 @@ UIMadBro
 Adding this monstrosity to your project
 ---------------------------------------
 
-1. Copy these files into your project:
+Copy these files into your project:
   * UIMadBro.h
   * UIMadBro.m
   * face.png
   * face@2x.png
-2. Import it:
-	#import "UIMadBro.h"
-3. Call it thusly:
-	UIMadBro *alertView = [[UIMadBro alloc] initWithTitle:@"Problem" message:@"u mad?" delegate:self cancelButtonTitle:@"GTFO" okButtonTitle:@"Okay. :("];
-	[alertView show];
+  
+Import it:
+```
+#import "UIMadBro.h"
+```
+
+Call it thusly:
+```
+UIMadBro *alertView = [[UIMadBro alloc] initWithTitle:@"Problem" message:@"u mad?" delegate:self cancelButtonTitle:@"GTFO" okButtonTitle:@"Okay. :("];
+[alertView show];
+```
 
 License
 -------
