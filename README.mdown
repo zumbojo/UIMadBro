@@ -11,15 +11,11 @@ Adding this monstrosity to your project
   * UIMadBro.m
   * face.png
   * face@2x.png
-  
 2. Import it:
-
   ```
   #import "UIMadBro.h"
   ```
-
 3. Call it thusly:
-
   ```
   UIMadBro *alertView = [[UIMadBro alloc] initWithTitle:@"Problem" message:@"u mad?" delegate:self cancelButtonTitle:@"GTFO" okButtonTitle:@"Okay. :("];
   [alertView show];
