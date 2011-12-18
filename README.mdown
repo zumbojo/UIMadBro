@@ -5,6 +5,8 @@ A stupid subclass of UIAlertView.
 
 [![](http://zumbojo.github.com/images/other_sites/github/UIMadBro/UIMadBro_screenshot.png)](http://zumbojo.github.com/images/other_sites/github/UIMadBro/UIMadBro_screenshot.png)
 
+[Retina display example](http://zumbojo.github.com/images/other_sites/github/UIMadBro/UIMadBro_screenshot.png)](http://zumbojo.github.com/images/other_sites/github/UIMadBro/UIMadBro_screenshot_retina.png)
+
 Adding this monstrosity to your project
 =======================================
 
