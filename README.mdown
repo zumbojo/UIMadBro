@@ -7,17 +7,20 @@ Adding this monstrosity to your project
 ---------------------------------------
 
 Copy these files into your project:
+
   * UIMadBro.h
   * UIMadBro.m
   * face.png
   * face@2x.png
   
 Import it:
+
 ```
   #import "UIMadBro.h"
 ```
 
 Call it thusly:
+
 ```
   UIMadBro *alertView = [[UIMadBro alloc] initWithTitle:@"Problem" message:@"u mad?" delegate:self cancelButtonTitle:@"GTFO" okButtonTitle:@"Okay. :("];
 [alertView show];
