@@ -34,7 +34,7 @@ License
 To do
 -----
 
-* LICENSE file?
+* LICENSE file (?), fix headers
 * Handle multi-line messages better (and remove a few (shameful) hard-coded dimensions)
 * Smooth out white border of image (so it looks less jagged in the sim)
 * Find a more productive use of my free time
