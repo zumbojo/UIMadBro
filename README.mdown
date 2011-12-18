@@ -12,15 +12,17 @@ Adding this monstrosity to your project
   * face.png
   * face@2x.png
   
-2. 
-```objective-c
-#import "UIMadBro.h"
+2. Import it:
+
+```
+  #import "UIMadBro.h"
 ```
 
 3. Call it thusly:
-```objective-c
-UIMadBro *alertView = [[UIMadBro alloc] initWithTitle:@"Problem" message:@"u mad?" delegate:self cancelButtonTitle:@"GTFO" okButtonTitle:@"Okay. :("];
-[alertView show];
+
+```
+  UIMadBro *alertView = [[UIMadBro alloc] initWithTitle:@"Problem" message:@"u mad?" delegate:self cancelButtonTitle:@"GTFO" okButtonTitle:@"Okay. :("];
+  [alertView show];
 ```
 
 License
