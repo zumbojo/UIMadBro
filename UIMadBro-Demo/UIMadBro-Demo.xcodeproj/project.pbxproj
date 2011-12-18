@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CE4CFB92149D5BFF00D7308A /* face.png in Resources */ = {isa = PBXBuildFile; fileRef = CE4CFB90149D5BFF00D7308A /* face.png */; };
-		CE4CFB93149D5BFF00D7308A /* face@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE4CFB91149D5BFF00D7308A /* face@2x.png */; };
+		CE5360F8149DA8A000E62C1B /* face.png in Resources */ = {isa = PBXBuildFile; fileRef = CE5360F6149DA8A000E62C1B /* face.png */; };
+		CE5360F9149DA8A000E62C1B /* face@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE5360F7149DA8A000E62C1B /* face@2x.png */; };
 		CEE07E6E14782F9200826D13 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEE07E6D14782F9200826D13 /* UIKit.framework */; };
 		CEE07E7014782F9200826D13 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEE07E6F14782F9200826D13 /* Foundation.framework */; };
 		CEE07E7214782F9200826D13 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEE07E7114782F9200826D13 /* CoreGraphics.framework */; };
@@ -21,8 +21,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		CE4CFB90149D5BFF00D7308A /* face.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = face.png; sourceTree = SOURCE_ROOT; };
-		CE4CFB91149D5BFF00D7308A /* face@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "face@2x.png"; sourceTree = SOURCE_ROOT; };
+		CE5360F6149DA8A000E62C1B /* face.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = face.png; path = ../../face.png; sourceTree = "<group>"; };
+		CE5360F7149DA8A000E62C1B /* face@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "face@2x.png"; path = "../../face@2x.png"; sourceTree = "<group>"; };
 		CEE07E6914782F9200826D13 /* UIMadBro-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UIMadBro-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEE07E6D14782F9200826D13 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		CEE07E6F14782F9200826D13 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -92,8 +92,8 @@
 				CEE07E7414782F9200826D13 /* Supporting Files */,
 				CEE07E8A1478355C00826D13 /* UIMadBro.h */,
 				CEE07E8B1478355C00826D13 /* UIMadBro.m */,
-				CE4CFB90149D5BFF00D7308A /* face.png */,
-				CE4CFB91149D5BFF00D7308A /* face@2x.png */,
+				CE5360F6149DA8A000E62C1B /* face.png */,
+				CE5360F7149DA8A000E62C1B /* face@2x.png */,
 			);
 			path = "UIMadBro-Demo";
 			sourceTree = "<group>";
@@ -161,8 +161,8 @@
 			files = (
 				CEE07E7814782F9200826D13 /* InfoPlist.strings in Resources */,
 				CEE07E8114782F9200826D13 /* MainStoryboard.storyboard in Resources */,
-				CE4CFB92149D5BFF00D7308A /* face.png in Resources */,
-				CE4CFB93149D5BFF00D7308A /* face@2x.png in Resources */,
+				CE5360F8149DA8A000E62C1B /* face.png in Resources */,
+				CE5360F9149DA8A000E62C1B /* face@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
