@@ -18,14 +18,14 @@ Copy these files into your project:
 Import it:
 
 ```objective-c
-  #import "UIMadBro.h"
+#import "UIMadBro.h"
 ```
 
 Call it thusly:
 
 ```objective-c
-  UIMadBro *alertView = [[UIMadBro alloc] initWithTitle:@"Problem" message:@"u mad?" delegate:self cancelButtonTitle:@"GTFO" okButtonTitle:@"Okay. :("];
-  [alertView show];
+UIMadBro *alertView = [[UIMadBro alloc] initWithTitle:@"Problem" message:@"u mad?" delegate:self cancelButtonTitle:@"GTFO" okButtonTitle:@"Okay. :("];
+[alertView show];
 ```
 
 License
