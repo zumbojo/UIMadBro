@@ -13,7 +13,7 @@ Copy these files into your project:
   * UIMadBro.h
   * UIMadBro.m
   * face.png
-  * face@2x.png
+  * face&#064;2x.png
   
 Import it:
 
