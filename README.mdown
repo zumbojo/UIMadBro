@@ -14,16 +14,16 @@ Adding this monstrosity to your project
   
 2. Import it:
 
-```
+  ```
   #import "UIMadBro.h"
-```
+  ```
 
 3. Call it thusly:
 
-```
+  ```
   UIMadBro *alertView = [[UIMadBro alloc] initWithTitle:@"Problem" message:@"u mad?" delegate:self cancelButtonTitle:@"GTFO" okButtonTitle:@"Okay. :("];
   [alertView show];
-```
+  ```
 
 License
 -------
